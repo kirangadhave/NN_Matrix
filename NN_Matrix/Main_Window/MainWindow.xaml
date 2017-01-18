@@ -1,12 +1,10 @@
-﻿<Window x:Class="NN_Matrix.MainWindow"
+﻿<Window x:Class="NN_Matrix.Main_Window.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NN_Matrix"
+        xmlns:local="clr-namespace:NN_Matrix.Main_Window"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="{Binding Title}" Height="500" Width="500">
+    <ContentControl Content="{Binding View}"/>
 </Window>
