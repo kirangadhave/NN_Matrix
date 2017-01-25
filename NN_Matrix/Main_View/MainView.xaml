@@ -108,7 +108,7 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Label Content="Select Parameter" Padding="10"/>
+                        <Label Content="Select Part" Padding="10"/>
                         <ComboBox x:Name="ComponentForMatrix" ItemsSource="{Binding Project.Components}" DisplayMemberPath="Name" VerticalContentAlignment="Center" MinWidth="150" SelectedItem="{Binding MatSelComp}"/>
                         <Button Content="Refresh" Margin="25 5" Command="{Binding Refresh}"/>
                     </StackPanel>

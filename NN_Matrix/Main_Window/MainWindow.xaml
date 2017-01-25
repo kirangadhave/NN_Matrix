@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NN_Matrix.Main_Window"
         mc:Ignorable="d"
-        Title="{Binding Title}" Height="500" Width="500">
+        Title="{Binding Title}" Height="500" Width="500" Icon="/NN_Matrix;component/nxnmat.ico">
     <ContentControl Content="{Binding View}"/>
 </Window>
